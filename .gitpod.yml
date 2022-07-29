@@ -1,0 +1,9 @@
+tasks:
+    - name: install dependencies & run dev server
+      init: npm install
+      command: npm run dev
+
+vscode:
+    extensions:
+        - svelte.svelte-vscode
+        - jock.svg
