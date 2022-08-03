@@ -88,17 +88,30 @@
         font-size: 16px;
     }
 
+    li a:hover {
+        color: var(--neutral-darkblue);
+    }
+
     .btn-primary {
         background-color: var(--primary-cyan);
         border-radius: 40px;
         color: hsl(0, 0%, 95%);
-        padding: 0.5rem 1rem;
+        padding: .5rem;
     }
 
     .btn-primary a {
         color: hsl(0, 0%, 95%);
+        padding: .5rem 1.5rem;
     }
 
+    .btn-primary:hover {
+        background-color: hsl(180, 66%, 70%);
+    }
+
+    .btn-primary:hover a {
+        color: hsl(0, 0%, 95%);
+    }
+    
     @media (max-width: 60rem) {
         .lg-only {
             display: none;
