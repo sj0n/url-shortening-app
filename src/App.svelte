@@ -1,10 +1,11 @@
 <script>
-    import Nav from "./lib/components/nav.svelte";
+    import Nav from "./lib/components/Nav.svelte";
+    import Main from "./lib/components/Main.svelte";
+    import AdvanceStat from "./lib/components/AdvanceStat.svelte";
 </script>
 
 <Nav />
-
-<main />
-
+<Main />
+<AdvanceStat />
 <style>
 </style>

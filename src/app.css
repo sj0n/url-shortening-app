@@ -1,7 +1,9 @@
 :root {
     --primary-cyan: hsl(180, 66%, 49%);
+    --primary-lightcyan: hsl(180, 66%, 70%);
     --primary-darkviolet: hsl(257, 27%, 26%);
     --secondary-red: hsl(0, 87%, 67%);
+    --neutral-white: hsl(0, 0%, 100%);
     --neutral-gray: hsl(0, 0%, 75%);
     --neutral-grayishviolet: hsl(257, 7%, 63%);
     --neutral-darkblue: hsl(255, 11%, 22%);
