@@ -44,6 +44,7 @@
         color: var(--neutral-white);
         text-decoration: none;
         font-weight: 700;
+        user-select: none;
     }
 
     .btn-primary:hover {
