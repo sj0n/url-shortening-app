@@ -67,6 +67,7 @@
         margin-right: auto;
         padding: 2rem 1rem;
         justify-content: space-between;
+        user-select: none;
     }
 
     nav > div {
@@ -112,7 +113,7 @@
         color: hsl(0, 0%, 95%);
     }
     
-    @media (max-width: 60rem) {
+    @media screen and (max-width: 60rem) {
         .lg-only {
             display: none;
         }
@@ -178,7 +179,7 @@
         }
     }
 
-    @media screen and (min-width: 60rem) {
+    @media (min-width: 60rem) {
         nav > a,
         .menu-wrapper {
             display: none;

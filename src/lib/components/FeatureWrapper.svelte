@@ -54,7 +54,6 @@
         background-color: hsl(255, 100%, 100%);
         border-radius: 5px;
         max-width: 400px;
-        min-width: 350px;
         padding: 3.5rem 2rem 2rem 2rem;
         position: relative;
         z-index: 2;
@@ -105,6 +104,7 @@
         .features-flex {
             flex-direction: column;
             text-align: center;
+            align-items: center;
         }
 
         .features-flex:not(:first-child)::before {
@@ -114,12 +114,12 @@
             background-color: var(--primary-cyan);
             position: absolute;
             z-index: 1;
-            left: 183px;
+            left: 50%;
         }
 
         .feature-card span {
             top: -40px;
-            left: 150px;
+            left: 40%;
         }
     }
 </style>
